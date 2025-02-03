@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Hobbies</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS (shared or inline) -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm">
+      <div class="container">
+        <img
+          height="40px"
+          width="40px"
+          src="../Resources/Img/code.png"
+          alt="Coding Symbol"
+        />
+        <a class="navbar-brand" href="home.html">Kendrix Henderson</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <!-- "active" class for current page -->
+              <a class="nav-link active" aria-current="page" href="hobbies.html"
+                >Hobbies</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Small Hero Section (Optional) -->
+    <section class="py-5 text-center hero">
+      <div class="container">
+        <h1 class="mb-3">Hobbies</h1>
+        <p class="text-muted mb-4">
+          Obviously I love coding, What else do i love?
+        </p>
+      </div>
+    </section>
+
+    <!-- Hobbies Content Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <div class="bg-white p-4 rounded shadow-sm h-100">
+              <h3>Music</h3>
+              <p>
+                Music is my answer to all my problems, I never go a day without listening to some!
+              </p>
+              <img
+                width="300"
+                height="200"
+                transform="rotate(90deg)"
+                src="../Resources/Img/Guitar.jpeg"
+                alt="Author Playing the guitar"
+                class="rotate-90 img-fluid rounded"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white p-4 rounded shadow-sm h-100">
+              <h3>Cooking</h3>
+              <p>
+                When I was in highschool I took culinary classes, and never stopped cooking after that!
+              </p>
+              <img
+                width="300"
+                height="200"
+                src="../Resources/Img/Cooking.jpeg"
+                alt="Author Cooking"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white p-4 rounded shadow-sm h-100">
+              <h3>Football</h3>
+              <p>
+                I love competition specifically football! Seeing the biggest sport, cause the biggest stakes, creating the biggest stories.
+              </p>
+              <img
+                src="../Resources/Img/Soccer.jpg"
+                alt="Premier league"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+          <!-- Add more hobbies if you like -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-white text-center">
+      <div class="container">
+        <!-- Social Icons -->
+        <div class="mb-3">
+          <a
+            href="https://github.com/jackkhuncho"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mx-2 text-secondary footer-icon"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a
+            href="https://instagram.com/bleachdowt"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mx-2 text-secondary footer-icon"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+        </div>
+
+        <p class="mb-0">&copy; 2025 Kendrix Henderson. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
